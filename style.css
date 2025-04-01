@@ -1,8 +1,18 @@
+@font-face {
+    font-family: "Poppins"; /* Name you will use in CSS */
+    src: url("./Poppins-Regular.woff2") format("woff2"); /* Correct file path */
+}
+
+@font-face {
+    font-family: "Kajiro"; /* Another font */
+    src: url("./Kajiro-Bold.woff2") format("woff2"); /* Fix file name */
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: poppins;
+    font-family: oppins;
 }
 html,body{
     height: 100%;
@@ -16,6 +26,7 @@ html,body{
     height: 100vh;
     width: 100%;
     background-color: rgb(255, 0, 0);
+    overflow: hidden;
 }
 #back img{
     height: 100%;
